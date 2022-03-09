@@ -6,7 +6,52 @@ main > section:nth-child(1){
   background-image: url('/img/salve-ep-bg.jpg');
 }
 
-#img-container{
-  height: 300px;
-  width: 300px;
+main > section:nth-child(2){
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main > section:nth-child(2) > form{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main > section:nth-child(2) > form > div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+}
+
+main > section:nth-child(2) > form > div:nth-child(1) > input[type='file']{
+  display: none;
+}
+
+main > section:nth-child(2) > form > div:nth-child(1) > label{
+  background-color: #2E2759;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 6px 20px;
+}
+
+main > section:nth-child(2) > form > div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main > section:nth-child(2) > form > div:nth-child(2) input{
+  height: 30px;
+  border: 1px solid #2E2759;
+  border-radius: 5px;
+}
+
+main > section:nth-child(2) > form > div:nth-child(2) > div {
+  margin: 20px 0 50px 0;
+}
+
+main > section:nth-child(2) > form > div > img{
+  height: 250px;
+  width: 250px;
+  background-color: #2E2759;
 }

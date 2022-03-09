@@ -1,0 +1,41 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.font
+{
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1.5px;
+}
+.btnEnter
+{
+  background-color: #D92B4B;
+  border:none;
+  border-radius: 22px;
+  color: white;
+  padding: 13px 40px;
+  font-size: large;
+  margin-right: 15px;
+}
+.img{
+  width: 50px;
+}
+.title{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #181818;
+}
+.paragrafo{
+  color: #2E2759;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

@@ -1,0 +1,61 @@
+header
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: #2E2759;
+  align-items: center;
+}
+
+header > div > a{
+  margin: 0;
+  padding: 0;
+}
+
+header > div > img:hover
+{
+  cursor: pointer;
+}
+
+header > div > a
+{
+  font-family: 'Staatliches', cursive;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  margin: 0 20px;
+}
+
+header > div > a:hover
+{
+  color: #D92B4B;
+  transition: all linear .2s;
+}
+
+header > div > button:nth-child(2)
+{
+  background-color: transparent;
+  border-style: solid;
+  border-color: #D92B4B;
+  border-radius: 22px;
+  color: white;
+  padding: 10px 15px;
+  font-size: large;
+}
+
+header > div > button:hover
+{
+  background-color: #c82333;
+  border-color: #c82333;
+  transition: all linear .2s;
+  cursor: pointer;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 1000px){
+  header > div:nth-child(2), header > div:nth-child(3){
+    display: none;
+  }
+  
+}

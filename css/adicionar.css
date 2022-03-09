@@ -1,0 +1,12 @@
+main > section:nth-child(1){
+  height: 159px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/img/salve-ep-bg.jpg');
+}
+
+#img-container{
+  height: 300px;
+  width: 300px;
+}

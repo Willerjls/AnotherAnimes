@@ -3,11 +3,13 @@ html, body{
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+
 .font
 {
   font-family: 'Staatliches', cursive;
   letter-spacing: 1.5px;
 }
+
 .btnEnter
 {
   background-color: #D92B4B;
@@ -18,14 +20,17 @@ html, body{
   font-size: large;
   margin-right: 15px;
 }
+
 .img{
   width: 50px;
 }
+
 .title{
   text-align: center;
   color: white;
   font-size: 2rem;
 }
+
 .card{
   display: flex;
   flex-direction: column;
@@ -34,8 +39,15 @@ html, body{
   border-radius: 10px;
   box-shadow: 2px 2px 20px #181818;
 }
+
 .paragrafo{
   color: #2E2759;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.inputBox{
+  height: 30px;
+  border: 1px solid #2E2759;
+  border-radius: 5px;
 }

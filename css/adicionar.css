@@ -38,12 +38,11 @@ main > section:nth-child(2) > form > div:nth-child(2){
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-main > section:nth-child(2) > form > div:nth-child(2) input{
-  height: 30px;
-  border: 1px solid #2E2759;
-  border-radius: 5px;
+main > section:nth-child(2) > form > div:nth-child(2) > input{
+  width: 98%;
 }
 
 main > section:nth-child(2) > form > div:nth-child(2) > div {

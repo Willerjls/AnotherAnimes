@@ -1,1 +1,0 @@
-document.getElementsByClassName('upperCase')[0].innerHTML.toUpperCase()

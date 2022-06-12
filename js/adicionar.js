@@ -4,7 +4,7 @@ function previewImagem(){
 
   var reader = new FileReader();
 
-  reader.onloadend = function(){
+  reader.onloadend = () => {
     preview.src = reader.result;
   }
 

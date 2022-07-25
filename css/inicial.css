@@ -3,7 +3,7 @@ main > section:nth-child(1){
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('/img/header-bg.jpg');
+  background-image: url('../img/header-bg.jpg');
 }
 
 main > section:nth-child(1) > div > h1{
